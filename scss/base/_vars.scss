@@ -1,10 +1,15 @@
 // Fonts
-$font-main: 'Playfair Display', serif;
-$font-accent: 'Raleway', sans-serif;
+$font-main: 'Raleway', sans-serif;
+$font-accent: 'Playfair Display', serif;
 $font-secondary: 'Roboto', sans-serif;
 
 // Colors
 $dark: #242B33;
 $accent: #D4C17F;
 $white: #FFFFFF;
-$footer-bg: #2D343C
+$footer-bg: #2D343C;
+$page-width: 1140px;
+
+// nav
+$hnav-column-gap: 40px;
+$hnav-font-size: 14px;
