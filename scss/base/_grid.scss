@@ -1,6 +1,11 @@
 // Grid
 .grid-2-row {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   column-gap: 30px;
+}
+
+.center-row {
+  align-items: center;
 }
