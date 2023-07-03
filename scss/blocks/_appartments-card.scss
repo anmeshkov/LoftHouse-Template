@@ -1,0 +1,47 @@
+.appartments__card {
+  // .appartments__card
+  max-width: 540px;
+  max-height: 320px;
+  overflow: hidden;
+  object-fit: contain;
+  border: 1px solid #000;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0.00) 0.01%, #242B33 100%);
+  }
+}
+
+.card {
+
+  // .card__link
+  &__link {
+    // position: relative;
+    // z-index: 10;
+    display: block;
+  }
+
+  // .card__img
+  &__img {}
+
+  // .card__title
+  &__title {
+    position: absolute;
+    left: 50px;
+    bottom: 44px;
+
+    // color: #FFF;
+    font-size: 24px;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

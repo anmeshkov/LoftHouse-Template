@@ -119,6 +119,15 @@ a:hover {
   line-height: 1.2;
 }
 
+.h2__title {
+  color: #D4C17F;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .header {
   background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url("../img/header/header-bg.jpg"), lightgray 50%/cover no-repeat;
 }
@@ -195,4 +204,62 @@ a:hover {
   display: flex;
   justify-content: space-between;
   column-gap: 40px;
+}
+.testimonials {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.testimonials__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 70px;
+}
+.testimonials__card {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  text-align: center;
+}
+
+.appartments {
+  padding: 75px 0;
+}
+.appartments__title {
+  margin-bottom: 88px;
+}
+
+.appartments__card {
+  max-width: 540px;
+  max-height: 320px;
+  overflow: hidden;
+  object-fit: contain;
+  border: 1px solid #000;
+  position: relative;
+}
+.appartments__card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%);
+}
+
+.card__link {
+  display: block;
+}
+.card__title {
+  position: absolute;
+  left: 50px;
+  bottom: 44px;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
