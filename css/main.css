@@ -558,3 +558,15 @@ a:hover {
 .player__play-button:hover {
   background-size: 110px 110px;
 }
+
+.map {
+  padding: 90px 0;
+}
+.map__title {
+  margin-bottom: 88px;
+}
+
+.map__wrapper {
+  background: #626262;
+  height: 358px;
+}
