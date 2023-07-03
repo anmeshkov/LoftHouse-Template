@@ -27,11 +27,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
+  border: 3px solid transparent;
+  transition: border 0.2s ease-in;
+
+  &::placeholder {
+    color: $form-text;
+  }
+
+  &:focus {
+    border: 3px solid $accent;
+  }
 }
 
-.form-input::placeholder {
-  color: $form-text;
-}
+// .form-input::placeholder {
+//   color: $form-text;
+// }
 
 .form-btn {
   max-width: 255px;
@@ -46,6 +56,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
+  transition: background 0.2s ease-in-out;
+
+  &:hover {
+    background: $accent-hover;
+  }
 }
 
 .form-info {
