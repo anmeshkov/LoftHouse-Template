@@ -4,7 +4,11 @@
   padding: 75px 0;
 
   // .appartments__wrapper
-  &__wrapper {}
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
 
   &__title {
     margin-bottom: 88px;
